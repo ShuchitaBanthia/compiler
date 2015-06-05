@@ -1,0 +1,16 @@
+Main()
+{
+	int a = 1;
+	int x = 1;
+	Point p := {6, 9};
+	Point p1; 
+
+	for (a=0; a<2; ++a;) {
+		addV p, p1;
+		x = x+1;
+	}
+	
+	Bot b1 := {p, 100, 20, true};
+
+	fw b1, x;
+}

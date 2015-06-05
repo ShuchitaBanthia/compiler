@@ -1,0 +1,14 @@
+Main()
+{
+	int a = 1;
+	int x = 1;
+	Point p := {6, 9};
+	Point p1; 
+
+	a = x + 1*1+1;
+	x = a +1;
+	
+	Bot b1 := {p, 100, 20, true};
+
+	fw b1, x;
+}
